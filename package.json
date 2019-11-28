@@ -1,5 +1,5 @@
 {
-  "name": "zerocore.grpc-helper",
+  "name": "@zerocore/grpc-helper",
   "version": "0.1.0",
   "description": "Support gRPC to send requests and reply with data type-protected content.",
   "main": "index.js",
@@ -17,5 +17,13 @@
     "@grpc/proto-loader": "^0.5.3",
     "grpc": "^1.24.2",
     "mocha": "^6.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zerocorevn:nnthuanzerocorevn@github.com/zerocorevn/grpc-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zerocorevn/grpc-helper/issues"
+  },
+  "homepage": "https://github.com/zerocorevn/grpc-helper#readme"
 }
