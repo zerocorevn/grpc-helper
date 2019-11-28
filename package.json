@@ -1,0 +1,20 @@
+{
+  "name": "grpc-helper",
+  "version": "0.1.0",
+  "description": "Support gRPC to send requests and reply with data type-protected content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 999999 --recursive --colors ./src/**/*test.js"
+  },
+  "keywords": [
+    "grpc",
+    "helper"
+  ],
+  "author": "nnthuan",
+  "license": "ISC",
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "grpc": "^1.24.2",
+    "mocha": "^6.2.2"
+  }
+}
