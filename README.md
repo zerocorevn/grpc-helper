@@ -98,7 +98,7 @@ let client = new protoDescriptor.Hello(
   `${config.ADDRESS}:${config.PORT}`, grpc.credentials.createInsecure()
 );
 
-module.exports = grpcHelper.createClient(client);
+let stub = grpcHelper.createClient(client);
 
 stub.request('hello', false).then(message => {
   console.log(message); // Hello!
