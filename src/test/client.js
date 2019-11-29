@@ -7,7 +7,7 @@ const config = {
   ADDRESS: '0.0.0.0',
   PORT: '5000'
 };
-const grpcHelper = require('../index');
+const grpcHelper = require('../grpc-helper');
 
 let packageDefinition = protoLoader.loadSync(
   PROTO_PATH,

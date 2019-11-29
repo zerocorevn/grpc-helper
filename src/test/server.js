@@ -2,7 +2,7 @@ const path = require('path');
 const grpc = require('grpc');
 let protoLoader = require('@grpc/proto-loader');
 
-const grpcHelper = require('../index');
+const grpcHelper = require('../grpc-helper');
 const PROTO_PATH = path.join(__dirname, '/protos/hello.proto');
 const config = {
   ADDRESS: '0.0.0.0',
