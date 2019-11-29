@@ -1,6 +1,6 @@
 {
   "name": "@zerocore/grpc-helper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Support gRPC to send requests and reply with data type-protected content.",
   "main": "index.js",
   "scripts": {
